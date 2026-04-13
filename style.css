@@ -22,22 +22,25 @@ header {
 }
 
 nav a{
-  color: #F7FCFF;
+  color: 
+#FFFFFF;
   float: right;
-  padding: 1.5rem;
+  padding: 1.2rem;
+  padding-top: 2.5rem;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
 a:hover{
-  color:#89B8D9;
+  color:
+#3DB2FF;
   text-decoration: underline;
 }
 
 .banner-logo {
-height: 100px;
-width: 300px;
+height: auto;
+width: 325px;
 padding: 1.5rem;
 }
 
