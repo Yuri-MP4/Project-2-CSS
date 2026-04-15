@@ -180,6 +180,11 @@ height: auto;
 margin: 1rem;
 }
 
+.game-screenshot-one,
+.game-screenshot-two{
+padding: 1rem;
+}
+
 .main-page-content{
 padding: 1.5rem;
 }
