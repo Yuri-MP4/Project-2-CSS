@@ -70,13 +70,20 @@ height: 100%;
 }
 
 h2{
-margin-top: 1rem;
+margin: 2.5rem auto;
+max-width: 1000px;
 text-align: center; 
 color: #686A6A;
 padding-bottom: 1.2rem;
 border-bottom: 4px solid #FA3E3E;
-font-weight: 500;
 font-size: 2rem;
+font-weight: 700;
+}
+
+.quote-name{
+  margin-top: 0.5rem;
+ font-size: 1.3rem;
+  
 }
 
 
@@ -98,12 +105,13 @@ padding: 0.8rem;
 }
 
 h2{
-margin-top: 1rem;
+margin: 1.5rem auto;
+max-width: 450px;
 text-align: center; 
 color: #686A6A;
 padding-bottom: 1.2rem;
 border-bottom: 4px solid #FA3E3E;
-font-weight: 500;
+font-weight: bold;
 font-size: 1.5rem;
 }
   
