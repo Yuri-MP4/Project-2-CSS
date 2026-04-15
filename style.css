@@ -57,11 +57,12 @@ padding: 1rem;
   color: white;
   font-size: 4.5rem;
   text-align: center;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
   width: 100vw;
   letter-spacing: 2px;
   text-transform: uppercase;
+  
 }
 
 .splash-art{
@@ -74,7 +75,9 @@ margin: 2.5rem auto;
 max-width: 1000px;
 text-align: center; 
 color: #686A6A;
+padding-top: 1.2rem;
 padding-bottom: 1.2rem;
+border-top: 4px solid #FA3E3E;
 border-bottom: 4px solid #FA3E3E;
 font-size: 2rem;
 font-weight: 700;
