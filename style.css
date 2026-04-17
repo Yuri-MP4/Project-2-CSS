@@ -111,12 +111,12 @@ padding-bottom: 1.5rem;
 }
 
 .paragraph-table-one{
-  background-color: #FA3E3E;
+  background-color: #FF7070;
   border-radius: 2rem;
 }
 
 .paragraph-table-two{
- background-color: #6ABBDE;
+ background-color: #7DC4E3;
  border-radius: 2rem;
 }
 
@@ -130,7 +130,6 @@ border-radius: 2rem;
   
 .game-description-one,
 .game-description-two{
-color: white;
 font-size: 1.2rem;
 padding: 2rem;
 height: auto;
@@ -205,7 +204,6 @@ font-size: 1.5rem;
 
 .game-description-one,
 .game-description-two{
-color: white;
 font-size: 1.2rem;
 padding: 1rem;
 height: auto;
