@@ -164,6 +164,67 @@ font-size: 1.2rem;
 }
 
 
+.third-page-content{
+margin-left: 4rem;
+margin-right: 4rem;
+margin-top: 2.5rem;
+margin-bottom: 2.5rem;
+}
+
+.third-header{
+color: black;
+}
+
+.track-intro{
+text-align: center;
+padding-bottom: 2.5rem;
+margin: 0.8rem auto;
+max-width: 1000px;
+font-size: 1.6rem;
+}
+
+.track-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.track-card {
+  background-color: #F7F3CA;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(61, 40, 23, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.track-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(75, 140, 250, 0.3);
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content{
+  padding: 1.5rem;
+}
+
+.card-title{
+font-size: 1.5rem;
+text-decoration: underline;
+color: #1E507B;
+}
+
+.card-location{
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+font-weight: bold;
+}
+
+
 
 
 @media only screen and (max-width: 480px) {
@@ -225,6 +286,21 @@ margin: 1rem;
 
 .text-3{
 font-size: 1rem;
+}
+
+.third-page-content{
+margin-left: 1rem;
+margin-right: 1rem;
+}
+
+.track-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .track-description{
+    font-size: 1.2rem;
+  }
 }
 
 
