@@ -1,3 +1,20 @@
+.racing-sans-one-regular {
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.ibm-plex-sans-<uniquifier> {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -62,7 +79,7 @@ padding: 1rem;
   width: 100vw;
   letter-spacing: 2px;
   text-transform: uppercase;
-  
+  font-family: "Racing Sans One", sans-serif;
 }
 
 .splash-art{
@@ -93,6 +110,8 @@ font-weight: 700;
 padding: 4.5rem;
 background-color: #292727;
 width: 100vw;
+font-family: "IBM Plex Sans", sans-serif;
+font-weight: 500;
 }
 
 h3{
@@ -100,6 +119,8 @@ font-size: 2.5rem;
 color: white;
 text-align: center;
 padding-bottom: 1.5rem;
+font-family: "Racing Sans One", sans-serif;
+letter-spacing: 2px;
 }
 
 .paragraph-table-one,
@@ -141,6 +162,8 @@ margin: 1rem;
   margin-left: 4rem;
   margin-right: 4rem;
   background-color: #4B5A68;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
 ;
   text-align: center;
  border-radius: 2rem;
@@ -217,6 +240,8 @@ color: #686A6A;
 font-size: 1.5rem;
 text-decoration: underline;
 color: #1E507B;
+font-family: "Racing Sans One", sans-serif;
+letter-spacing: 3px;
 }
 
 .card-location{
